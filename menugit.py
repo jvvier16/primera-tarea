@@ -1,7 +1,7 @@
 import os
 import time
 
-
+usario = []
 while True:
     os.system('cls')
     print("hola bienvenido ")
@@ -12,9 +12,14 @@ while True:
              4. salir""")
     opc = int(input("que opcion tomara"))
     if opc ==1 :
-        pass
+        print("inicio sesion")
+        x =input("nomre de usario")
     elif opc == 2:
-        pass
+        nombre = input("que nombre de usario usaras")
+        clae = input("crea una contreseña ")
+        usario = {
+            "nombre",nombre,
+            "contra",clae}
     elif opc == 3:
         pass
     else:
